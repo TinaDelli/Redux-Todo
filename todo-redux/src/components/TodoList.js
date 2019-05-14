@@ -5,7 +5,7 @@ import { addTodo, toggleCompleted } from '../actions';
 
 class TodoList extends React.Component {
     state= {
-        newTodo: ''
+        newTodo: '',
     };
 
     handleChanges = e => {
@@ -13,7 +13,7 @@ class TodoList extends React.Component {
     };
 
     addTodo = e => {
-        // e.preventDefault(),
+        e.preventDefault()
         this.props.addTodo(this.state.newTodo);
         this.setState({ newTodo: ''});
     };
@@ -30,7 +30,7 @@ class TodoList extends React.Component {
             this.props.todos.map(todo => (
                 <h4 onClick={() => this.toggleCompleted(todo.id)} key={todo.id}>
                 {todo.name}
-                {todo.completed && <i class="fas fa-check-circle" />}
+                {todo.completed && <i className="fas fa-check-circle" />}
                 </h4>
             ))}
             </div>

@@ -3,8 +3,8 @@ import { UPDATE_TODOLIST_NAME, ADD_TODO, TOGGLE_COMPLETED } from '../actions';
 const initialState = {
     title: 'Todo List',
     todos: [
-        { name: 'Wash Dishes', completed: false, id: 123 },
-        { name: 'Do Laundry', completed: false, id:124 }
+        { name: 'Wash Dishes', completed: false, id: 12345678},
+        { name: 'Do Laundry', completed: false, id: 87654321 }
     ]
 };
 
@@ -22,7 +22,8 @@ function reducer (state= initialState, action){
                 ...state.todos,
                 {
                     name: action.payload, 
-                    completed: false
+                    completed: false,
+                    id: Date.now()
                 }
             ]
         };
