@@ -1,3 +1,22 @@
+.Header{
+  display:flex;
+  margin: 0 300px;
+  justify-content: space-evenly;
+  align-content: center;
+  background: -webkit-linear-gradient(#3366ff, #009999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 0px 2px 0px black
+}
+
+.Header h3{
+  padding-top:16px;
+}
+
+.Header i {
+  padding-top:29px;
+}
+
 .Intro{
   min-height:600px;
   text-align: center;
@@ -5,8 +24,8 @@
   background: url("https://images.unsplash.com/photo-1515667176053-71c7c3767767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 20px;
-  padding-top:20px;
+  margin: 0 20px 20px;
+  padding:20px 0;
 
 }
 
@@ -40,7 +59,7 @@
 i {
   margin-left:10px;
   font-size: 32px;
-  color:green;
+  color:#3366ff;
 }
 
 .todo-list h2{

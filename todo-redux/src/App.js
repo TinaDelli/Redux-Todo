@@ -7,6 +7,11 @@ import TodoList from './components/TodoList'
 function App() {
   return (
     <>
+    <div className="Header">
+    <h1>Todo List App</h1>
+    <i className="fas fa-check-circle" />
+    <h3>Let's Get Organized</h3>
+    </div>
     <div className="Intro">
       <h1> Welcome to Your Todo List!</h1>
       {/* <p>In This Todo List you can Customize Your Todo List's name, Check off completed tasks added to your list and up your organization skills with this handy app!</p> */}
