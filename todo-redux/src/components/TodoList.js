@@ -48,7 +48,7 @@ class TodoList extends React.Component {
             placeholder="Add in something to do!"
             />
             <button onClick={this.addTodo}>Add Todo</button>
-            <button onClick={this.deleteTodo}>Delete Todo</button>
+            <button onClick={this.deleteTodo}>Delete</button>
             </>
         );
     }

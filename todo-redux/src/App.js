@@ -15,6 +15,7 @@ function App() {
         <li>Customize Your Name For Your Todo List By Clicking On The Pencil Icon!</li>
         <li>Stay up To Date By Adding In New Tasks To Your List if Necessary</li>
         <li>Check Off Completed Tasks Added To Your List, Just Click on The Task!</li>
+        <li>Don't Want To See The Completed Task Anymore? That's OK just hit DELETE</li>
         <li>Up Your Organization Skills</li>
       </ul>
       <h4>Get Started Below!</h4>
