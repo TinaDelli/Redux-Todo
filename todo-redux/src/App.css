@@ -18,8 +18,8 @@
 
 .Intro ul li {
   list-style:none;
-  color: #3366ff;
   font-size:22px;
+  font-weight:bold;
   text-shadow: 5px 1px 5px white;
 }
 
