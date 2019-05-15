@@ -42,6 +42,11 @@
   text-shadow: 5px 1px 5px white;
 }
 
+.Intro .fa-li {
+  font-size:12px;
+  margin-left:280px;
+}
+
 .App {
   text-align: center;
   background: rgba(255, 255, 255, 0.6);
@@ -53,17 +58,29 @@
 .App h1 {
   background: -webkit-linear-gradient(#3366ff, #009999);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: black;
+  -webkit-text-fill-color: #3366ff;
 }
 
-i {
+ i {
   margin-left:10px;
   font-size: 32px;
   color:#3366ff;
 }
 
+.far i:hover{
+  cursor: pointer;
+}
+
 .todo-list h2{
   font-weight:400;
+  text-decoration:underline;
+}
+
+.todo-list h4{
+  cursor: pointer;
+}
+
+.todo-list h4:active{
   text-decoration:underline;
 }
 
@@ -150,4 +167,19 @@ button:active::after {
   opacity: 0.4;
   transform: translate(-50%, -50%) scale(0);
   transition: transform 0s;
+}
+
+input {
+  font-size:18px;
+  text-align:center;
+  background: transparent;
+  border:none;
+  border-radius: 20px;
+}
+
+input:focus{
+  outline: none;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  padding: 15px
 }
