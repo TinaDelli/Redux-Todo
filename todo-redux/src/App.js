@@ -17,7 +17,7 @@ function App() {
       {/* <p>In This Todo List you can Customize Your Todo List's name, Check off completed tasks added to your list and up your organization skills with this handy app!</p> */}
       <h3>In This Todo List App You Can:</h3>
       <ul>
-        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Customize Your Name For Your Todo List By Clicking On The Pencil Icon!</li>
+        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Customize Your Name For Your Todo List By Clicking On The Gear Icon!</li>
         <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Stay up To Date By Adding In New Tasks To Your List if Necessary</li>
         <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Check Off Completed Tasks Added To Your List, Just Click on The Task!</li>
         <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Don't Want To See The Completed Task Anymore? That's OK! Just Hit DELETE</li>
