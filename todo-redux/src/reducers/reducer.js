@@ -1,4 +1,4 @@
-import { UPDATE_TODOLIST_NAME, ADD_TODO, TOGGLE_COMPLETED } from '../actions';
+import { UPDATE_TODOLIST_NAME, ADD_TODO, TOGGLE_COMPLETED, DELETE_TODO } from '../actions';
 
 const initialState = {
     title: 'Enter Your Todo List Title Here',
@@ -39,6 +39,15 @@ function reducer (state= initialState, action){
                 }
                 return todo;
             })
+        };
+        case DELETE_TODO:
+        return {
+            ...state,
+            todos: [
+                ...state.todos.filter(todo => {
+                    return !todo.completed
+                })
+            ]
         };
         default: 
         return state;
