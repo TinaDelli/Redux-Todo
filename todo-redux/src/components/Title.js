@@ -26,7 +26,7 @@ class Title extends React.Component{
                     <h1>
                         {this.props.title}{' '}
                     <i 
-                    className="fas fa-edit"
+                    className="far fa-edit"
                     onClick= { () => this.setState({ editing: true })}
                     />
                     </h1>

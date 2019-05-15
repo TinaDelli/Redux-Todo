@@ -1,7 +1,7 @@
 import { UPDATE_TODOLIST_NAME, ADD_TODO, TOGGLE_COMPLETED } from '../actions';
 
 const initialState = {
-    title: 'Todo List',
+    title: 'Enter Your Todo List Title Here',
     todos: [
         { name: 'Wash Dishes', completed: false, id: 12345678},
         { name: 'Do Laundry', completed: false, id: 87654321 }

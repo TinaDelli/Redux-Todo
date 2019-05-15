@@ -26,6 +26,7 @@ class TodoList extends React.Component {
         return (
             <>
             <div className="todo-list">
+            <h2>Tasks</h2>
             {this.props.todos && 
             this.props.todos.map(todo => (
                 <h4 onClick={() => this.toggleCompleted(todo.id)} key={todo.id}>
